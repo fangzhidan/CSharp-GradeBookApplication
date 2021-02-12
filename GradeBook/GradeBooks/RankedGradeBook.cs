@@ -9,7 +9,7 @@ namespace GradeBook.GradeBooks
         private const int minNumberStudents = 5;
         private const double twentyPercent = 0.2;
 
-        public RankedGradeBook(string name) : base(name)
+        public RankedGradeBook(string name, bool isWeighted) : base(name, isWeighted)
         {
             Type = GradeBookType.Ranked;
         }
