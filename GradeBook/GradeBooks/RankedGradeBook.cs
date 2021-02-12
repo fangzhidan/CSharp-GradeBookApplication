@@ -50,11 +50,6 @@ namespace GradeBook.GradeBooks
             {
                 return 'D';
             }
-            // If in top 100%, award 'E'
-            else if (indexAvgGrade < (numStudentsPerGrade * 5))
-            {
-                return 'E';
-            }
 
             // Otherwise return 'F'
             return 'F';
